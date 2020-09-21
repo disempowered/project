@@ -1,16 +1,14 @@
 "use strict";
 
-//alert('Hello');
+console.log("array" + ' object')
 
-//const result = confirm("Are you here?");
+let incr = 10,
+    decr = 10;
 
-// const answer = +prompt("Вам есть 18?", "18");
-// console.log(answer + 4);
+// incr++;
+// decr--;
 
-const answers =[];
+const isChecked = true,
+      isClosed = false;
 
-answers[0] = prompt('Как ваше имя?', '');
-answers[1] = prompt('Фамилия?', '');
-answers[2] = prompt('Сколько вам лет?', '');
-
-document.write(answers);
+console.log(2 + 2 * 2 !== '6');
